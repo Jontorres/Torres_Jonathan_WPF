@@ -4,4 +4,4 @@
 
 //Hi there!
 
-alert("This is in the js file");
+alert("Hello world!");
