@@ -3,5 +3,6 @@
 //Assinment X
 
 //Hi there!
+//Welcome to my JavaScript!
 
 alert("Hello world!");
