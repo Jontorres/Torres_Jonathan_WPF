@@ -41,6 +41,6 @@ console.log(yearsMore);
 
 //Caculate our futue age
 
-var futureAge = age + yearsMore;
+var futureAge = age + Number(yearsMore);
 
 console.log(futureAge);
