@@ -156,3 +156,15 @@ console.log(phoneNo);
 //This is how to change numbers into strings
 */
 
+
+
+/*
+//Expressions - Assignment Operators
+var a = 3;
+//a += 4; a = a + 4
+//a *= 4 , a /+4 or a -= 4 can be used
+//a ++ 1; //a = a + 1 // a += 1
+/a --; // a = a - 1// a -= 1 
+console.log(a);
+*/
+
