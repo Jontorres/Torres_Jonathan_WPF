@@ -11,6 +11,8 @@
 var humanAge = 10;
 //this is the dog years that will need to be multiplied for correct age
 var dogYears = 7;
+//multiply the humanAge with the dogYears
+var result = humanAge * dogYears;
 
 
 
