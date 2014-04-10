@@ -53,4 +53,11 @@ console.log("Sparky got "+sparkyShare+" slices slices of pizza.");
 alert("Sparky got "+sparkyShare+" slices of pizza.");
 
 
+//Average shopping bill
+//Average weekly grocery shopping spending over the past five weeks
+
+
+
+
+
 
