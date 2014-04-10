@@ -40,4 +40,10 @@ console.log("Each person ate "+slices+" slices of pizza at the party.");
 alert("Each person ate "+slices+" slices of pizza at the party.");
 
 
+//Slice of Pie part 2
+//How many slices of pizza will Sparky get
+
+
+
+
 
