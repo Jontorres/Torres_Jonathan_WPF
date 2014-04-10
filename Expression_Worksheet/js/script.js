@@ -13,6 +13,5 @@ var humanAge = 10;
 var dogYears = 7;
 //multiply the humanAge with the dogYears
 var result = humanAge * dogYears;
-
-
-
+//This will print out the result
+console.log(result);
