@@ -64,6 +64,17 @@ is to use the backslach to show that the ' is not the end of a quote.
  // A's value would now be 2 and B's value is now 5
 
 // Expressions - Age example
-var yearBorn =1991;
+/*var yearBorn =1991;
 var age = 2014 - yearBorn - 1; //if you have not had a birthday yet
 console.log(age);
+*/
+
+// Expressions - Arithemtic Operators
+
+//area of the triangle is half the width times the height
+var width = 8;
+var height = 7;
+var area = width * height/2;// multiplecation symbole is an * and division is / 
+// You could divide the area on a seprate line by doing this 
+//area = area/2 or area * .5
+console.log(area);
