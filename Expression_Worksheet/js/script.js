@@ -25,11 +25,11 @@ alert("Sparky is "+sparkyAge+" human years old which is "+result+" in dog years"
 //How many slices of pizza will each party goer get
 
 //This is how many slices the pizza was cut into
-var pizzaSlices = 8;
+var pizzaSlices = 25;
 //This is how many people showed up to the party
-var partyGoers = 20;
+var partyGoers = 10;
 //There were 5 pizzas bought 
-var pizzas = 3; 
+var pizzas = 5; 
 //We must multiply the slices by the pizzas then divid it among the partygoers
 var slices = pizzaSlices * pizzas / partyGoers;
 //This will print out the result
@@ -42,8 +42,11 @@ alert("Each person ate "+slices+" slices of pizza at the party.");
 
 //Slice of Pie part 2
 //How many slices of pizza will Sparky get
-
-
+//The givens will be the ones used from the first part
+//This is the remainder that Sparky gets 
+var sparkyShare = slices % 5;
+//This will print out the result
+console.log(sparkyShare);
 
 
 
