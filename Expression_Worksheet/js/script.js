@@ -50,7 +50,7 @@ console.log(sparkyShare);
 //this is the message that will show up in the console.log
 console.log("Sparky got "+sparkyShare+" slices slices of pizza.");
 //This will show the user the answer
-alert("Sparky got "+sparkyShare+" slices slices of pizza.");
+alert("Sparky got "+sparkyShare+" slices of pizza.");
 
 
 
