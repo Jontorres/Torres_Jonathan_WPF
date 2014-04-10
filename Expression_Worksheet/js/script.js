@@ -32,8 +32,12 @@ var partyGoers = 20;
 var pizzas = 3; 
 //We must multiply the slices by the pizzas then divid it among the partygoers
 var slices = pizzaSlices * pizzas / partyGoers;
-
-
+//This will print out the result
+console.log(slices);
+//this is the message that will show up in the console.log
+console.log("Each person ate "+slices+" slices of pizza at the party.");
+//This will show the user the answer
+alert("Each person ate "+slices+" slices of pizza at the party.");
 
 
 
