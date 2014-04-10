@@ -28,5 +28,8 @@ alert("Sparky is "+sparkyAge+" human years old which is "+result+" in dog years"
 var pizzaSlices = 8;
 //This is how many people showed up to the party
 var partyGoers = 20;
+//There were 5 pizzas bought 
+var pizzas = 5; 
+
 
 
