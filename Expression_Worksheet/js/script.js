@@ -30,6 +30,8 @@ var pizzaSlices = 8;
 var partyGoers = 20;
 //There were 5 pizzas bought 
 var pizzas = 3; 
+//We must multiply the slices by the pizzas then divid it among the partygoers
+var slices = pizzaSlices * pizzas / partyGoers;
 
 
 
