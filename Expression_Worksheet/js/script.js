@@ -60,3 +60,7 @@ console.log("You have spent a total of "+grocerytotal+" on groceries over 5 week
 //This will show the user the answer
 alert("You have spent a total of "+grocerytotal+" on groceries over 5 weeks. That is an average of "+groceryAverage+" per week");
 
+
+//Discounts
+//What is the discounted price with and without sales tax
+
