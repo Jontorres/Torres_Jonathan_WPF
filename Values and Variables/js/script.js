@@ -13,6 +13,8 @@ console.log(yearBorn);
 alert(yearBorn);
 */
 
+
+
 //Declaring Variables
 //Declare before you define.
 //var age;
@@ -41,6 +43,7 @@ alert(yearBorn);
 is to use the backslach to show that the ' is not the end of a quote.
 */
 
+
 //Arrays
 
 //var muppetNames = ["Kermit", "Miss Piggy"]; //this makes a list, 0,1,2,3
@@ -51,8 +54,9 @@ is to use the backslach to show that the ' is not the end of a quote.
 //muppetNames[2]= "Fozzy";//adding this to fozzy
 // can also use var instead of the numbers 
 // var num = 1;
-
 //console.log(muppetNames[num]);
+
+
 
 //Expressions
 // var a = 2;//sets up our variable a and defiens it as 2
@@ -61,20 +65,28 @@ is to use the backslach to show that the ' is not the end of a quote.
 //var b; //if want to store the value of 5 in B instead of A
 //b = a + 3;// this stores five into the A variable by usng = which is an assingment operator 
 // console.log(b);
- // A's value would now be 2 and B's value is now 5
-
+// A's value would now be 2 and B's value is now 5
 // Expressions - Age example
 /*var yearBorn =1991;
 var age = 2014 - yearBorn - 1; //if you have not had a birthday yet
 console.log(age);
 */
 
-// Expressions - Arithemtic Operators
 
+
+// Expressions - Arithemtic Operators
 //area of the triangle is half the width times the height
-var width = 8;
-var height = 7;
-var area = width * height/2;// multiplecation symbole is an * and division is / 
+//var width = 8;
+//var height = 7;
+//var area = width * height/2;// multiplecation symbole is an * and division is / 
 // You could divide the area on a seprate line by doing this 
 //area = area/2 or area * .5
-console.log(area);
+//console.log(area);
+
+
+//Expressions - Modulo Operator
+var remainder = 211 % 2 //this is to get the remainder not the result of a division 
+// this is useful to tell whether a number is even or odd
+console.log(remainder);
+
+
