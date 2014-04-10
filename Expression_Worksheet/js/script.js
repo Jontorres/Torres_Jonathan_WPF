@@ -16,4 +16,6 @@ var result =  sparkyAge * dogYears;
 //This will print out the result
 console.log(result);
 //This is Sparky's age x in human years which is X in dog years
-console.log("Sparky is "+sparkyAge+" human years old which is "+result+" in dog years")
+console.log("Sparky is "+sparkyAge+" human years old which is "+result+" in dog years");
+//I added an alert for fun, but this show the viewer the answer
+alert("Sparky is "+sparkyAge+" human years old which is "+result+" in dog years");
