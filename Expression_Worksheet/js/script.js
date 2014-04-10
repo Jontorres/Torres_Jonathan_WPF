@@ -47,6 +47,8 @@ alert("Each person ate "+slices+" slices of pizza at the party.");
 var sparkyShare = slices % 5;
 //This will print out the result
 console.log(sparkyShare);
+//this is the message that will show up in the console.log
+console.log("Sparky got "+sparkyShare+" slices slices of pizza.");
 
 
 
