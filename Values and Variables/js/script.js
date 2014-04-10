@@ -52,4 +52,15 @@ muppetNames[2]= "Fozzy";//adding this to fozzy
 // can also use var instead of the numbers 
  var num = 1;
 
-console.log(muppetNames[num]);
+//console.log(muppetNames[num]);
+
+//Expressions
+ var a = 2;//sets up our variable a and defiens it as 2
+//a + 3; add 3 to A suppose to  but will not because it is not storing it 
+//so to make add up to five you have to add this--
+var b; //if want to store the value of 5 in B instead of A
+b = a + 3;// this stores five into the A variable by usng = which is an assingment operator 
+ console.log(b);
+ // A's value would now be 2 and B's value is now 5
+
+
