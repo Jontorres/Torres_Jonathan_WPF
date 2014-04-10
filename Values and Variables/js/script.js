@@ -125,16 +125,34 @@ console.log(total);
 
 
 
-//Expression - Concatenating Strings
 /*
+//Expression - Concatenating Strings
 var firstName = "Joanthan";
 var lastName = "Torres";
 var fullName = firstName +" "+lastName;
 console.log(fullName);
-*/
+
 var a = 6;//so by taking out the "" and making them a number then they will be add not combined
 var b = 7;
 var result = a + b;
 console.log(result);//strings can only be combined 
+*/
 
+
+
+/*
+//Expressions - Casting
+var stringVar = "6";
+var result = 7 + Number(stringVar);// by putting () around stringVar and then Number in front you are casting stringVar as a number
+console.log(result);
+
+
+var areaCode = 407;
+var firstPart = 203;
+var secPart = 4529;
+//(407) 203-4529
+var phoneNo = "(" + String(areaCode) + ")" + String(firstPart) + "-" + String(secPart);
+console.log(phoneNo);
+//This is how to change numbers into strings
+*/
 
