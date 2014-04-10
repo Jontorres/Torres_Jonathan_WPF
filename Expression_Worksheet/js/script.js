@@ -13,8 +13,6 @@ var sparkyAge = 10;
 var dogYears = 7;
 //multiply the humanAge with the dogYears
 var result =  sparkyAge * dogYears;
-//This will print out the result
-console.log(result);
 //This is Sparky's age x in human years which is X in dog years
 console.log("Sparky is "+sparkyAge+" human years old which is "+result+" in dog years");
 //I added an alert for fun, but this show the viewer the answer
@@ -32,8 +30,6 @@ var partyGoers = 10;
 var pizzas = 5; 
 //We must multiply the slices by the pizzas then divid it among the partygoers
 var slices = pizzaSlices * pizzas / partyGoers;
-//This will print out the result
-console.log(slices);
 //this is the message that will show up in the console.log
 console.log("Each person ate "+slices+" slices of pizza at the party.");
 //This will show the user the answer
@@ -45,8 +41,6 @@ alert("Each person ate "+slices+" slices of pizza at the party.");
 //The givens will be the ones used from the first part
 //This is the remainder that Sparky gets 
 var sparkyShare = slices % 5;
-//This will print out the result
-console.log(sparkyShare);
 //this is the message that will show up in the console.log
 console.log("Sparky got "+sparkyShare+" slices slices of pizza.");
 //This will show the user the answer
@@ -55,9 +49,14 @@ alert("Sparky got "+sparkyShare+" slices of pizza.");
 
 //Average shopping bill
 //Average weekly grocery shopping spending over the past five weeks
-
-
-
-
-
+//this is the array for the shopping bills over 5 weeks
+var groceryBills = [250.00, 135.08, 453.45, 100.05, 94.25]
+//this is the total spent over 5 weeks
+var grocerytotal = groceryBills[0] + groceryBills[1] + groceryBills[2] + groceryBills[3] +groceryBills[4];
+//this is the average spent over the 5 weeks
+var groceryAverage = grocerytotal / 5;
+//This will print out the result
+console.log("You have spent a total of "+grocerytotal+" on groceries over 5 weeks. That is an average of "+groceryAverage+" per week");
+//This will show the user the answer
+alert("You have spent a total of "+grocerytotal+" on groceries over 5 weeks. That is an average of "+groceryAverage+" per week");
 
