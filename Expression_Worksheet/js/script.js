@@ -19,3 +19,7 @@ console.log(result);
 console.log("Sparky is "+sparkyAge+" human years old which is "+result+" in dog years");
 //I added an alert for fun, but this show the viewer the answer
 alert("Sparky is "+sparkyAge+" human years old which is "+result+" in dog years");
+
+
+//Slice of Pie part 1
+//How many slices of pizza will each party goer get
