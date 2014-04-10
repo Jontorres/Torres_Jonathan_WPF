@@ -56,11 +56,20 @@ var grocerytotal = groceryBills[0] + groceryBills[1] + groceryBills[2] + grocery
 //this is the average spent over the 5 weeks
 var groceryAverage = grocerytotal / 5;
 //This will print out the result
-console.log("You have spent a total of "+grocerytotal+" on groceries over 5 weeks. That is an average of "+groceryAverage+" per week");
+console.log("You have spent a total of " +"$" +grocerytotal+" on groceries over 5 weeks. That is an average of " +"$"+groceryAverage+" per week");
 //This will show the user the answer
-alert("You have spent a total of "+grocerytotal+" on groceries over 5 weeks. That is an average of "+groceryAverage+" per week");
+alert("You have spent a total of " +"$" +grocerytotal+" on groceries over 5 weeks. That is an average of " +"$"+groceryAverage+" per week");
 
 
 //Discounts
 //What is the discounted price with and without sales tax
+//this is the original price of the game before taxs or discounts
+var originPrice = 456.37
+//this is the discount that is being given 
+var discount = 15
+//this is the item being sold
+var item = "game"
+//this is the sales tax percentage
+var saleTax = 4.5
+
 
