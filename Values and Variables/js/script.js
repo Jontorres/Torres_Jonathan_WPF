@@ -117,12 +117,24 @@ console.log(perimeter);
 
 
 /*
-//Expression- Using Arrays in Expressions
+//Expression - Using Arrays in Expressions
 var orangeBins = [234, 567, 883];
 var total = orangeBins[0] + orangeBins[1] + orangeBins[2];
 console.log(total);
 */
 
 
+
+//Expression - Concatenating Strings
+/*
+var firstName = "Joanthan";
+var lastName = "Torres";
+var fullName = firstName +" "+lastName;
+console.log(fullName);
+*/
+var a = 6;//so by taking out the "" and making them a number then they will be add not combined
+var b = 7;
+var result = a + b;
+console.log(result);//strings can only be combined 
 
 
