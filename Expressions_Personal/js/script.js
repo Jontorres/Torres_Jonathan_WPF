@@ -14,7 +14,7 @@ var days = prompt("How many days do you workout in a week?");
 var hours = prompt("How many hours a day do you work out?");
 //this will now tell us the amount of exercise in a week the user does
 var exercice = days * hours;
-//checking to see if the expression works
+//This will print out the answer to the console
 console.log("The amount of exercice you do is "+exercice+" hours a week!");
 //adding an alert so the user may see the answer
 alert("The amount of exercice you do is "+exercice+" hours a week!")
@@ -29,5 +29,6 @@ var noDays = prompt("How many days do you not work out in a week?");
 var noHours = prompt("How much time do you sit on the days you do not work out?")
 //This will caculate how long the user is inactive in a week
 var couchPotato = noDays * noHours;
-
+//checking to see if the expression works
+console.log(couchPotato);
 
