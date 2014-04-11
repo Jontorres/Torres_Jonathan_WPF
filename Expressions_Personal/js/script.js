@@ -33,3 +33,7 @@ var couchPotato = noDays * noHours;
 console.log("You do not exercice "+couchPotato+" hours a week, you may be a couch potato!");
 //adding an alert that will show the user the hours they do not work out a week
 alert("You do not exercice "+couchPotato+" hours a week, you may be a couch potato!");
+
+//Now we will get the average for the month 
+alert("Would you like to see your average hours of excerice a month... yes? Okay good continue on!")
+
