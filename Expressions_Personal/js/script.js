@@ -31,4 +31,5 @@ var noHours = prompt("How much time do you sit on the days you do not work out?"
 var couchPotato = noDays * noHours;
 //This will print out the answer to the console
 console.log("You do not exercice "+couchPotato+" hours a week, you may be a couch potato!");
-
+//adding an alert that will show the user the hours they do not work out a week
+alert("You do not exercice "+couchPotato+" hours a week, you may be a couch potato!");
