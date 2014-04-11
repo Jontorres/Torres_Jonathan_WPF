@@ -6,3 +6,5 @@
 
 //This first prompt will gather the amount of days that the user goes to the gym
 var days = prompt("How many days do you go to the gym in a week?");
+//The next prompt will find out how many hours the user works out at the gym
+var hours = prompt("How many hours a day do you work out?");
