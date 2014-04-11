@@ -21,7 +21,7 @@ alert("The amount of exercice you do is "+exercice+" hours a week!")
 
 
 //now adding an alert for the second question
-alert("Now would you like to see how much you do not exercice in a week, if so please answer \nthe next questions!");
+alert("Now would you like to see how much you do not exercice in a week, if so please answer the next questions!");
 
 //This will tell how many days you do not work out
 var noDays = prompt("How many days do you not work out in a week?");
@@ -29,6 +29,6 @@ var noDays = prompt("How many days do you not work out in a week?");
 var noHours = prompt("How much time do you sit on the days you do not work out?")
 //This will caculate how long the user is inactive in a week
 var couchPotato = noDays * noHours;
-//checking to see if the expression works
-console.log(couchPotato);
+//This will print out the answer to the console
+console.log("You do not exercice "+couchPotato+" hours a week, you may be a couch potato!");
 
