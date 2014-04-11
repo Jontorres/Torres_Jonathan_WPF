@@ -9,7 +9,7 @@ var days = prompt("How many days do you go to the gym in a week?");
 //The next prompt will find out how many hours the user works out at the gym
 var hours = prompt("How many hours a day do you work out?");
 //this will now tell us the amount of exercise in a week the user does
-var exercice = days + hours;
+var exercice = days * hours;
 //checking to see if the expression works
 console.log(exercice);
 
