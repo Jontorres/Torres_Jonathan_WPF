@@ -12,6 +12,8 @@ var hours = prompt("How many hours a day do you work out?");
 var exercice = days * hours;
 //checking to see if the expression works
 console.log("The amount of exercice you do is "+exercice+" hours a week!");
+//adding an alert so the user may see the answer
+alert("The amount of exercice you do is "+exercice+" hours a week!")
 
 //This will tell how many days you do not work out
 var noDays = prompt("How many days do you not work out in a week?");
