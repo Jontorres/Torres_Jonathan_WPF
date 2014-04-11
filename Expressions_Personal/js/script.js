@@ -12,3 +12,6 @@ var hours = prompt("How many hours a day do you work out?");
 var noDays = prompt("How many days do you not work out in a week?");
 //This will tell how much time you do not do any activities on the days you do not work out
 var noHours = prompt("How much time do you sit on the days you do not work out?")
+
+//this will now tell us the amount of exercise in a week the user does
+var exercice = days + hours;
