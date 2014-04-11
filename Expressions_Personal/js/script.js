@@ -30,9 +30,9 @@ var noHours = prompt("How much time do you sit on the days you do not work out?"
 //This will caculate how long the user is inactive in a week
 var couchPotato = noDays * noHours;
 //This will print out the answer to the console
-console.log("You do not exercise "+couchPotato+" hours a week, you may be a couch potato!");
+console.log("You do not exercise for "+couchPotato+" hours a week, you may be a couch potato!");
 //adding an alert that will show the user the hours they do not work out a week
-alert("You do not exercise "+couchPotato+" hours a week, you may be a couch potato!");
+alert("You do not exercise for "+couchPotato+" hours a week, you may be a couch potato!");
 
 //Now we will get the average for the month 
 alert("Would you like to see your average hours of exercise a month... yes? Okay good continue on!")
