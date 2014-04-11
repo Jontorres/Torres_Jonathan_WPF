@@ -11,4 +11,4 @@ var soldierAge = prompt("What is your age soldier?");
 var soldierWeight = prompt("What is your weight in pounds?");
 //now we will get soldiers height
 var solderHeight = prompt("What is your height in feet?");
-
+//I could not finish 
