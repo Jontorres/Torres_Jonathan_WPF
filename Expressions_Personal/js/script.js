@@ -4,6 +4,9 @@
 
 //This will show how much time is spent at the gym in a week
 
+//Adding this alert so that these questions make more sense
+alert("Would you like to see how much time you spend working out \nin a week if so please answer the following questions!")
+
 //This first prompt will gather the amount of days that the user goes to the gym
 var days = prompt("How many days do you go to the gym in a week?");
 //The next prompt will find out how many hours the user works out at the gym
