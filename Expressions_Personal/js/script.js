@@ -8,9 +8,9 @@
 alert("Would you like to see how much time you spend working out in a week if so please answer \nthe following questions!");
 
 
-//This first prompt will gather the amount of days that the user goes to the gym
-var days = prompt("How many days do you go to the gym in a week?");
-//The next prompt will find out how many hours the user works out at the gym
+//This first prompt will gather the amount of days that the user worksout
+var days = prompt("How many days do you workout in a week?");
+//The next prompt will find out how many hours the user works out 
 var hours = prompt("How many hours a day do you work out?");
 //this will now tell us the amount of exercise in a week the user does
 var exercice = days * hours;
@@ -27,4 +27,7 @@ alert("Now would you like to see how much you do not exercice in a week, if so p
 var noDays = prompt("How many days do you not work out in a week?");
 //This will tell how much time you do not do any activities on the days you do not work out
 var noHours = prompt("How much time do you sit on the days you do not work out?")
+//This will caculate how long the user is inactive in a week
+var couchPotato = noDays * noHours;
+
 
