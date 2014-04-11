@@ -66,10 +66,29 @@ alert("You have spent a total of " +"$" +grocerytotal+" on groceries over 5 week
 //this is the original price of the game before taxs or discounts
 var originPrice = 456.37
 //this is the discount that is being given 
-var discount = 15
+var discount = 0.15
 //this is the item being sold
-var item = "game"
+var item = "Game"
 //this is the sales tax percentage
-var saleTax = 4.5
+var saleTax = 0.045
+//This is the first step into finding out how much the game cost without tax but with a discount
+var disPrice = originPrice * discount;
+//This is where you get the price of the game once the discount is taken from the original price
+var disTotal = originPrice - disPrice;
+//first you times the price of the game once you have your discount with the tax
+var taxPrice = disTotal * saleTax;
+//once you have the tax price you can see how much the game cost once tax is added to it which gives you the taxtotal of the game.
+var taxtotal = disTotal + taxPrice;
+//This will print out the result
+console.log("Your "+item+" was originally " +"$"+originPrice+", but after a "+discount+"%"+ " discount, it is now " +"$"+disTotal+" without tax, and " +"$"+taxtotal+" with tax.");
+//This will show the user the answer
+alert("Your "+item+" was originally " +"$"+originPrice+", but after a "+discount+"%"+ " discount, it is now " +"$"+disTotal+" without tax, and " +"$"+taxtotal+" with tax.");
+
+/*
+I had trouble with the last question but hopefully this is how it was ment to worked out
+if not please send me an email explaining how because I would really like to know 
+an easier way to write this out.
+*/
+
 
 
