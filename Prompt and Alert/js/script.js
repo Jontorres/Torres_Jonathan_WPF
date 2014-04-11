@@ -1,2 +1,3 @@
 //Prompt and alert
 
+prompt();
