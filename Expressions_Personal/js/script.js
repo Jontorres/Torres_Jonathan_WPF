@@ -5,7 +5,8 @@
 //This will show how much time is spent at the gym in a week
 
 //Adding this alert so that these questions make more sense
-alert("Would you like to see how much time you spend working out in a week if so please answer \nthe following questions!")
+alert("Would you like to see how much time you spend working out in a week if so please answer \nthe following questions!");
+
 
 //This first prompt will gather the amount of days that the user goes to the gym
 var days = prompt("How many days do you go to the gym in a week?");
@@ -17,6 +18,10 @@ var exercice = days * hours;
 console.log("The amount of exercice you do is "+exercice+" hours a week!");
 //adding an alert so the user may see the answer
 alert("The amount of exercice you do is "+exercice+" hours a week!")
+
+
+//now adding an alert for the second question
+alert("Now would you like to see how much you do not exercice in a week, if so please answer \nthe next questions!");
 
 //This will tell how many days you do not work out
 var noDays = prompt("How many days do you not work out in a week?");
