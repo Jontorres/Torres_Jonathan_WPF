@@ -8,7 +8,7 @@
 //For every 1 human year dogs age goes up by 7 
 
 //this is Sparky's age in human Years
-var sparkyAge = 10;
+var sparkyAge = 5;
 //this is the dog years that will need to be multiplied for correct age
 var dogYears = 7;
 //multiply the humanAge with the dogYears
