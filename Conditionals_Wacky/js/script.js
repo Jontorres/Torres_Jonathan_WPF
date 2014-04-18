@@ -18,3 +18,6 @@ var wacky = prompt("Which Loony Toons character is your favorite? \n"+loonyToons
 // final variable
 var toons;
 
+// now the conditionals
+if (wacky == loonyToons[0]){
+
