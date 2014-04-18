@@ -12,4 +12,6 @@ var score;
 score = (soldier < 75) ? "Failed" : "Passed";
 //this will alert the soldier
 alert("Soldier you have "+score+ " your PT test!");
+//this will print out to the console
+console.log("Soldier you have "+score+ " your PT test!");
 
