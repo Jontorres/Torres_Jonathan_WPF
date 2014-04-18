@@ -11,5 +11,5 @@ var boy;
 var girl;
 //now I am adding the if condition which will lead to the next question 
 if (gender ==="boy"){
-
+	boy = prompt("How many hours have you spent playing video games in your life?");
 }
