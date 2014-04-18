@@ -12,4 +12,9 @@ var girl;
 //now I am adding the if condition which will lead to the next question 
 if (gender ==="boy"){
 	boy = prompt("How many hours have you spent playing video games in your life?");
+
+	//added an else for if they answer as a girl
+}else{
+	//add the third question
+	girl + prompt("How many hours have you spent shopping?");
 }
