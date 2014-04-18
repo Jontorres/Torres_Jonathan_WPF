@@ -11,4 +11,5 @@ var alien = prompt("And are you a alien or a human?");
 //just for fun alert
 alert("HA HA HA... Last question was a joke lol!!!!");
 
-
+//an array
+var loonyToons = ["bugs", "speedy gonzales", "sylvester", "tweety", "daffy duck"];
