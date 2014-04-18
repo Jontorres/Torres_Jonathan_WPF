@@ -13,3 +13,8 @@ alert("HA HA HA... Last question was a joke lol!!!!");
 
 //an array
 var loonyToons = ["bugs", "speedy gonzales", "sylvester", "tweety", "daffy duck"];
+//the prompt that will ask the main question
+var wacky = prompt("Which Loony Toons character is your favorite? \n"+loonyToons);
+// final variable
+var toons;
+
