@@ -12,6 +12,13 @@ var winner;
 if (gender == "boy"){
 	//new statement gives the boy a game 
 	winner = "You won a new video game!";
-	
+	//the else condition for if you choose the girl
+	}else{
+		// this is what the girl wins
+	winner = "You won a free $100 shopping card!"
 
 }
+//this will print to console
+console.log(winner);
+//this will alert the user of their prize
+alert(winner);
