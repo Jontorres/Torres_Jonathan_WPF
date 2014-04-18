@@ -7,3 +7,5 @@
 var gender = prompt("Are you a boy or a girl?");
 // I will be using this variable to ask the next question for a boy
 var boy;
+// This will be the girls variable
+var girl;
