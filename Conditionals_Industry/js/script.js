@@ -8,4 +8,7 @@ alert("Hi soldier!");
 var soldier = prompt("How many sit-ups can you do on a pt test?");
 //the variable the the sit up will be used by
 var score;
+// this is the ternary
+score = (soldier < 75) ? "Failed" : "Passed";
+
 
