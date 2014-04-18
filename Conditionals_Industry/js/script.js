@@ -10,5 +10,6 @@ var soldier = prompt("How many sit-ups can you do on a pt test?");
 var score;
 // this is the ternary
 score = (soldier < 75) ? "Failed" : "Passed";
-
+//this will alert the soldier
+alert("Soldier you have "+score+ " your PT test!");
 
