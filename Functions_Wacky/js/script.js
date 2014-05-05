@@ -52,7 +52,8 @@ if(choiceOne != "Jedi" || "Sith"){
 	//repeat of prompt one
 	var choiceOne = prompt("Would you like to play as a Jedi or Sith today?");
 	//repeat for calling
-starWars(choiceOne);
+	starWars(choiceOne);
+	
 }
 
 //variable for prompt two 
@@ -66,6 +67,7 @@ if(choiceTwo != "Jedi" || "Sith"){
 	//repeat calling function
 starWars(choiceOne);
 }
+
 
 //end alert and console
 alert("The End!");
