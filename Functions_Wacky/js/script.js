@@ -47,7 +47,7 @@ function starWars(theForce){
 var choiceOne = prompt("Would you like to play as a Jedi or Sith today?");
 //calling function
 starWars(choiceOne);
-//if no answer 
+//if no answer , for some reason this will happen no matter what 
 if(choiceOne != "Jedi" || "Sith"){
 	//repeat of prompt one
 	var choiceOne = prompt("Would you like to play as a Jedi or Sith today?");
@@ -60,7 +60,7 @@ if(choiceOne != "Jedi" || "Sith"){
 var choiceTwo = prompt("Would you like to continue playing as the last side you choose or would you like to play the other side? Please choose Jedi or Sith.");
 //second calling of function
 starWars(choiceTwo);
-//if no imput 
+//if no imput ,for some reason this will happen no matter what 
 if(choiceTwo != "Jedi" || "Sith"){
 	//repeat prompt one
 	var choiceOne = prompt("Would you like to play as a Jedi or Sith today?");
