@@ -27,4 +27,9 @@ payCheck(payCheckOne);
 var payCheckTwo = prompt("How many hours have you worked for the second two weeks?");
 // and second calling 
 payCheck(payCheckTwo);
+/* variable for the total, the * 2 at the end would have to change depending on what
+the wage hours are times by (example: wage = hours * 20, the total would now have to 
+be times by 4 instead of 2).
+*/
+var total = payCheckOne * payCheckTwo * 2;
 
