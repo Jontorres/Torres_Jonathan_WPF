@@ -18,3 +18,5 @@ var breakFast = prompt("What would you like to eat for breakfast?");
 foodDemand(breakFast);
 //now the second propmt will ask about lunch
 var lunch = prompt("What would you like to eat for lunch?");
+//now calling the function
+foodDemand(lunch);
