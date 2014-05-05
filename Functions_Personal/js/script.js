@@ -22,3 +22,6 @@ var lunch = prompt("What would you like to eat for lunch?");
 foodDemand(lunch);
 // now we will ask about dinner
 var dinner = prompt("What would you like to eat for dinner?");
+//and now calling function again
+foodDemand(dinner);
+
