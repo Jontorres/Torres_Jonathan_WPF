@@ -18,3 +18,8 @@ var payCheck = function(hours){
 //now will add a console.log that will print out the result
 	console.log("You earned $"+ wage+ ".00" +" this paycheck.");
 }
+
+// this is th first prompt
+var payCheckOne = prompt("How many hours have you worked for the first two weeks?");
+//and the first calling of the function
+payCheck(payCheckOne);
