@@ -24,4 +24,8 @@ foodDemand(lunch);
 var dinner = prompt("What would you like to eat for dinner?");
 //and now calling function again
 foodDemand(dinner);
+//This will be the closing alert and console.log
+alert("We shall have "+ breakFast+ " for breakfast, " + lunch+ " for lunch" +" and for dinner "+dinner+ ", hope you enjoy!");
+
+console.log("We shall have "+ breakFast+ " for breakfast, " + lunch+ " for lunch" +" and for dinner "+dinner+ ", hope you enjoy!");
 
