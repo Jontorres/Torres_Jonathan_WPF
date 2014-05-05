@@ -23,3 +23,8 @@ var payCheck = function(hours){
 var payCheckOne = prompt("How many hours have you worked for the first two weeks?");
 //and the first calling of the function
 payCheck(payCheckOne);
+// second prompt 
+var payCheckTwo = prompt("How many hours have you worked for the second two weeks?");
+// and second calling 
+payCheck(payCheckTwo);
+
