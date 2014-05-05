@@ -8,3 +8,8 @@ hours you worked in four weeks.
 
 // this alert will start off the code
 alert("Hi welcome to your new job. You will be getting paid 10 dollars per hour and will recieve a paycheck every two weeks, goodluck!");
+
+//this will be the function that will be used
+var payCheck = function(hours){
+
+}
