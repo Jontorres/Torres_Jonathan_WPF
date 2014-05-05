@@ -12,3 +12,5 @@ var foodDemand = function(food){
 	console.log("I would like to eat "+ food+ ".");
 }
 
+// now I will give the prompt for breakfast 
+var breakFast = prompt("What would you like to eat for breakfast?");
