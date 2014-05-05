@@ -15,5 +15,6 @@ var payCheck = function(hours){
 	var wage = hours * 10; 
 //now will add an alert that will tell you how much you made each pay check 
 	alert("You earned $"+ wage+ ".00" +" this paycheck.");
-	
+//now will add a console.log that will print out the result
+	console.log("You earned $"+ wage+ ".00" +" this paycheck.");
 }
