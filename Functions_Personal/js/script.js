@@ -6,5 +6,6 @@
 // the function will be foodDemand
 
 var foodDemand = function(food){
-	
+	//In side the function I will have the code that will give the user their response
+	alert("I would like to eat "+ food+ ".");
 }
