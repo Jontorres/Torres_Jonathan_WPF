@@ -11,5 +11,7 @@ alert("Hi welcome to your new job. You will be getting paid 10 dollars per hour 
 
 //this will be the function that will be used
 var payCheck = function(hours){
+// now will add a variable that will * the hours you work with your wage 10 
+	var wage = hours * 10; 
 
 }
