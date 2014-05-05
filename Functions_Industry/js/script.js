@@ -32,4 +32,7 @@ the wage hours are times by (example: wage = hours * 20, the total would now hav
 be times by 4 instead of 2).
 */
 var total = payCheckOne * payCheckTwo * 2;
-
+// alert that lets the user know their total earned in a month
+alert("This month you have earned a total of $"+ total+ ".00" +" congratulations!");
+//console.log that prints out the total earned
+console.log("This month you have earned a total of $"+ total+ ".00" +" congratulations!");
